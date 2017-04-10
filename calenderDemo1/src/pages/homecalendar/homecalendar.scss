@@ -1,0 +1,19 @@
+page-homecalendar {
+    .content-page h2 {
+        font-size: 16px;
+        font-weight: bold;
+    }
+    .p-item {
+        padding-top: 8px;
+        font-size: 16px;
+        width: 80px;
+        height: 50px;
+        border-right: springgreen solid 2px;
+    }
+    .content-page ion-item {
+        height: 80px;
+    }
+    .list list-ios {
+        border: none;
+    }
+}

@@ -1,0 +1,23 @@
+page-home {
+    
+    .login-list {
+        margin-top: 30px;
+    }
+    .cangiua {
+        display: block; 
+        margin-left: auto; 
+        margin-right: auto;
+    }
+    .list-ios .item-block .item-inner {
+        border: none;
+    }
+    .list-ios > .item-block:first-child {
+        border: none;
+    }
+    .list-ios > .item-block:last-child {
+        border: none;
+    }
+    .list-md .item-input:last-child {
+        border-bottom: none;
+    }
+}

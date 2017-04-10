@@ -1,0 +1,60 @@
+<ion-header>
+
+  <ion-navbar color="secondary">
+    <ion-toolbar>
+      <button ion-button menuToggle left>
+    <ion-icon name="menu"></ion-icon>
+  </button>
+      <ion-title>
+        Đặt Thời Gian Báo Công Việc
+      </ion-title>
+
+    </ion-toolbar>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+
+  <ion-list> 
+    <ion-item no-lines>
+      <ion-label>
+        Lịch Cá Nhân
+      </ion-label>
+      <ion-icon name='clock' item-left></ion-icon>
+    </ion-item>
+    <ion-item>
+    <ion-label>Thời Gian</ion-label>
+    <ion-select [(ngModel)]="thoigian">
+      <ion-option value="nam">5p</ion-option>
+      <ion-option value="muoi">10p</ion-option>
+      <ion-option value="muoilam">15p</ion-option>
+      <ion-option value="haimuoi">20p</ion-option>
+      <ion-option value="bamuoi">30p</ion-option>
+      <ion-option value="motgio">1h</ion-option>
+    </ion-select>
+  </ion-item>
+  </ion-list>
+  <ion-list> 
+    <ion-item no-lines>
+      <ion-label>
+        Lịch Cá Nhân Của Trường
+      </ion-label>
+      <ion-icon name='clock' item-left></ion-icon>
+    </ion-item>
+    <ion-item>
+    <ion-label>Thời Gian</ion-label>
+    <ion-select [(ngModel)]="nam">
+      <ion-option value="nam">5p</ion-option>
+      <ion-option value="muoi">10p</ion-option>
+      <ion-option value="muoilam">15p</ion-option>
+      <ion-option value="haimuoi">20p</ion-option>
+      <ion-option value="bamuoi">30p</ion-option>
+      <ion-option value="motgio">1h</ion-option>
+    </ion-select>
+  </ion-item>
+  </ion-list>
+  <button ion-button full round  (click)="datThoiGianBao()">Ok</button>
+
+</ion-content>

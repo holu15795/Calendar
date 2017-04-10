@@ -1,0 +1,51 @@
+<ion-header>
+
+  <ion-navbar color="secondary">
+    <ion-toolbar>
+      <button ion-button menuToggle left>
+    <ion-icon name="menu"></ion-icon>
+  </button>
+      <ion-title>
+        Thông Tin Cá Nhân
+      </ion-title>
+
+    </ion-toolbar>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+
+  <ion-list>
+
+    <ion-card>
+
+      <ion-item>
+        <ion-avatar item-left>
+          <img src="http://icons.iconarchive.com/icons/dapino/people/512/brown-man-icon.png" alt="avatarUser" />
+        </ion-avatar>
+        <h2>Marty McFly</h2>
+        <p>November 5, 1955</p>
+      </ion-item>
+
+
+      <button ion-item (click)="updateUser()">
+      <ion-icon name="medical" item-left></ion-icon>
+      Cập Nhật Thông Tin
+    </button>
+
+      <button ion-item (click)="changePass()">
+      <ion-icon name="add" item-left></ion-icon>
+      Thay Đổi Mật Khẩu
+    </button>
+
+      <button ion-item block (click)="doConfirm()">
+      <ion-icon name="exit" item-left></ion-icon>
+      Đăng Xuất
+    </button>
+
+    </ion-card>
+
+  </ion-list>
+</ion-content>

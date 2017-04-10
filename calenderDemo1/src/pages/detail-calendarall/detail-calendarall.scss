@@ -1,0 +1,29 @@
+page-detail-calendarall {
+   .btn-canhan {
+       float: right;
+       margin-right: 20px;
+       width: 120px;
+   }
+   .btn-toantruong {
+       float: left;
+       margin-left: 20px;
+       width: 120px;
+   }
+   .content-page h2 {
+        font-size: 16px;
+        font-weight: bold;
+    }
+    .p-item {
+        padding-top: 5px;
+        font-size: 16px;
+        width: 80px;
+        height: 50px;
+        border-right: springgreen solid 2px;
+    }
+    .content-page ion-item {
+        height: 80px;
+    }
+    .content-page ion-list {
+        border: none;
+    }
+}

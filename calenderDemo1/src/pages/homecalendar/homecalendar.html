@@ -1,0 +1,82 @@
+<ion-header>
+
+  <ion-navbar color="secondary">
+    <ion-toolbar>
+      <button ion-button menuToggle left>
+    <ion-icon name="menu"></ion-icon>
+  </button>
+      <ion-title>
+        Lịch Cá Nhân
+      </ion-title>
+
+    </ion-toolbar>
+  </ion-navbar>
+
+</ion-header>
+
+
+
+<ion-content padding-top class="content-page">
+  <calendar-week (valueUpdated)="getDate($event)"></calendar-week>
+  <!--<div class="div-gd-list"></div>-->
+  <ion-list>
+    <ion-item (click)="DetailOneCalendar()">
+      <p class="p-item" item-left>
+        08:00 am <br>
+        <ion-note>10:00 am</ion-note>
+      </p>
+      <ion-item no-lines>
+        <h2>Lên Lớp C++</h2>
+        <p>B-06-03</p>
+      </ion-item>
+      <ion-avatar item-right>
+        <img src="http://icons.iconarchive.com/icons/custom-icon-design/flatastic-4/512/New-icon.png">
+      </ion-avatar>
+    </ion-item>
+
+    <ion-item (click)="DetailOneCalendar()">
+      <p class="p-item" item-left>
+        10:00 am <br>
+        <ion-note>11:30 am</ion-note>
+      </p>
+      <ion-item no-lines>
+        <h2>Lên Lớp C++</h2>
+        <p>B-04-03</p>
+      </ion-item>
+    </ion-item>
+
+    <ion-item (click)="DetailOneCalendar()">
+      <p class="p-item" item-left>
+        02:00 pm <br>
+        <ion-note>03:00 pm</ion-note>
+      </p>
+      <ion-item no-lines>
+        <h2>Lên Lớp C#</h2>
+        <p>B-06-09</p>
+      </ion-item>
+      <ion-avatar item-right>
+        <img src="http://icons.iconarchive.com/icons/custom-icon-design/flatastic-4/512/New-icon.png">
+      </ion-avatar>
+    </ion-item>
+
+    <ion-item (click)="DetailOneCalendar()">
+      <p class="p-item" item-left>
+        03:00 pm <br>
+        <ion-note>05:00 pm</ion-note>
+      </p>
+      <ion-item no-lines>
+        <h2>Lên Lớp C++</h2>
+        <p>B-06-09</p>
+      </ion-item>
+    </ion-item>
+  </ion-list>
+
+  <!--<ion-fab right bottom>
+    <button ion-fab (click)="datgioAll()"><ion-icon name="clock"></ion-icon></button>
+  </ion-fab>
+
+  <ion-fab left bottom>
+    <button ion-fab (click)="thongbaomoi()"><ion-icon name="clock"></ion-icon></button>
+  </ion-fab>-->
+
+</ion-content>

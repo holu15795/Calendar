@@ -1,0 +1,166 @@
+calendar-week{
+    .time-col {
+        text-align: center;
+        .fa {
+            font-size: 2.1rem !important;
+        }
+    }
+    .time {
+        color: red;
+        font-size: 1.7rem;
+        font-weight: bold;
+        float: left;
+        padding: 5px;
+        margin: 2px;
+    }
+    .title {
+        // font-weight: bold;
+        font-size: 1.5rem;
+        padding: 8px;
+        float: left;
+    }
+    .detail {
+        font-size: 1.3rem;
+        padding: 5px;
+        float: left;
+    }
+    ion-grid {
+        padding-bottom: 0px;
+        padding-top: 5px;
+    }
+    .card-background-page {
+        ion-card {
+            position: relative;
+            text-align: left;
+            height: 150px;
+        }
+        .card-title {
+            position: absolute;
+            top: 75%;
+            font-size: 13px;
+            padding: 5px;
+            width: 100%;
+            font-weight: bold;
+            color: #fff;
+            background: rgba(0, 0, 0, 0.3);
+        }
+    }
+    .content-ios {
+        background-color: #f3f3f3;
+    }
+    .content-md {
+        background-color: #f3f3f3;
+    }
+    ion-row {
+        background-color: #fff; //#f3f3f3;
+    }
+    .datetime-md{
+        padding: 0px calc(100% /5);
+    }
+    .datetime-ios{
+        padding: 13px 8px 13px 10%;
+    }
+    ion-item{
+        .item-md{
+            padding-left:0;
+            padding-right: 10px;
+        }
+    }
+    
+    .datetime-text{
+        font-size: medium;
+        font-weight: bold;
+        overflow: unset;
+    }
+    .date {
+        color: darkblue;
+        font-size: 14px;
+        text-align: center;
+        padding-bottom: 5px;
+    }
+    .date1 {
+        color: white;
+        height: 3.5rem;
+        width: 3.5rem;
+        color: darkblue;
+        font-size: 2rem;
+        // padding: 8px 15px 5px 10px;
+        padding-top:8px; 
+        text-align: center;
+        opacity: 0.6;
+    }
+    .date2 {
+        color: white;
+        height: 3.5rem;
+        width: 3.5rem;
+        color: darkblue;
+        font-size: 2rem;
+        // padding: 8px 15px 5px 10px;
+        padding-top:8px; 
+        text-align: center;
+        opacity: 0.4;
+    }
+    .date3 {
+        color: white;
+        height: 3.5rem;
+        width: 3.5rem;
+        color: darkblue;
+        font-size: 2rem;
+        // padding: 8px 15px 5px 10px;
+        padding-top:8px; 
+        text-align: center;
+        opacity: 0.2;
+    }
+    .dateSelect {
+        color: white;
+        background-color: darkblue;
+        height: 250px;
+        width: 250px;
+        border-radius: 50%;
+        color: #fff;
+        font-size: 2rem;
+        padding: 5px 7px;
+        text-align: center;
+    }
+    .date-label{
+        ion-label{
+            text-align: center;
+        }
+    }
+
+    ion-icon{
+        font-size: 2em;
+    }
+    ion-col{
+        .icon1{
+            padding-top: 13px;
+        }
+        .icon2{
+            padding-top: 13px;
+        }
+    }
+  
+    ion-col[width-p7]{
+        width: calc(100% / 7);
+        text-align: center;
+        padding-top: 7px;
+    }
+   
+   .item-md ion-icon[item-left] + .item-inner, .item-md ion-icon[item-left] + .item-input{
+       margin-left:10px;
+   }
+   .item-md [item-left]{
+        margin-right: 0px;
+   }
+   .item-md [item-right]{
+       margin-right: 23px;
+   }
+   .di-item {
+       height: 30px;
+       border-bottom: none;
+   }
+
+   .date-item {
+       height: 85px;
+   }
+}
