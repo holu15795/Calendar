@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Ionic Blank
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-list>       
+    <ion-item>
+      <ion-label>Thời Gian Hẹn</ion-label>
+      <ion-datetime displayFormat="H:mm A" pickerFormat="H:mm A" [(ngModel)]="event.timeStarts"></ion-datetime>
+    </ion-item>
+    <ion-item>
+      <button ion-button block (click)="datthongbao()">Đặt</button>
+    </ion-item>
+  </ion-list>
+</ion-content>
